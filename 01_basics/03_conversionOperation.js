@@ -1,10 +1,10 @@
-// let score=null
-// console.log(typeof score)
-// console.log(typeof (score))
+let score=null
+console.log(typeof score)
+console.log(typeof (score))
 
-// let valueInNumber=Number(score)
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber)
+let valueInNumber=Number(score)
+console.log(typeof valueInNumber);
+console.log(valueInNumber)
 
 //conversion
 
@@ -20,10 +20,11 @@
 //" "=>false
 //"Ritik"=>true
 
-// let somenumber=33
+let somenumber=33
 
-// let stringnumber=string(somenumber)
-// console.log(typeof stringnumber)
+let stringnumber=String(somenumber)
+console.log(typeof stringnumber)
+
 
 
 //******************************Operations *************************
