@@ -21,7 +21,7 @@ const regularuser={
     }
 }
 }
-// console.log(regularuser.fullname.userfullname.firstname)
+console.log(regularuser.fullname.userfullname.firstname)
 
 //combine objects(two method)
 const obj1={1:"a",2:"b"}
@@ -30,7 +30,7 @@ const obj4={5:"a",6:"b"}
 // const obj3=Object.assign({},obj1,obj2,obj4)   //1.assign keyword
 
 const obj3={...obj1,...obj2,...obj4}             //spread operator
-// console.log(obj3)
+console.log(obj3)
 
 
 //arrays is collected in the form of object
@@ -57,9 +57,9 @@ users[1].email
 console.log(tinderuser)
 
 //key and value are store in form of array
-// console.log(Object.keys(tinderuser))
-// console.log(Object.values(tinderuser))
-// console.log(Object.entries(tinderuser))
+console.log(Object.keys(tinderuser))
+console.log(Object.values(tinderuser))
+console.log(Object.entries(tinderuser))
 
 
 //to check key is present or not
@@ -87,11 +87,11 @@ console.log(instructor)
 
 //json Talk
 
-{
-    "name": "Ritik",
-    "coursename":"js in hindi",
-    "price":"free"
-}
+// {
+//     "name": "Ritik",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
 
 [
 
